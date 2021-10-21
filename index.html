@@ -32,7 +32,7 @@
             <h3>I am a Junior Developer. </h3>
             <a href="#about" class="btn"> About Me</a>
         </div>
-        <div class="w50">
+        <div class="w50" id="bannerimg">
             <img src="image/banner.jpg" style="justify-content: right;" class="img">
         </div>
     </section>
@@ -48,8 +48,8 @@
                     I  have experience a year of experience as a junior developer intern, an internship that was supported by the Microsoft Appfactory.
                 </p>
                 <p>
-                    I am currently completing my Honours in BSc IT and Computer Science. My goal is to continuously improve my skills towards a career in software development as I gain new experiences.
-                    I welcome change as it is a chance for growth.
+                    I am currently completing my Honours in BSc IT and Computer Science. 
+                    My goal is to continuously improve my skills and experiences towards a career in software development.
                 </p>
                 <br><br>
 
@@ -57,9 +57,7 @@
                 <p>
                     My interest are game development, chess, basketball and games like league of legends and tekken. 
                 </p>
-                <p>
-                    I have a great interest in game development to learn more about it, albeit slowly, in my free time.
-                </p>
+
                 <img src="image/game.png" class="smallimg">
                 <img src="image/tekken7.png" class="smallimg">
                 <img src="image/basketball.jpg" class="smallimg">
@@ -127,57 +125,111 @@
             <h2>Skills</h2>
             <p><strong> Skills and Experiences I have gained and my personal scoring on certain skills </strong></p>
         </div>
-        <div class="projectBox">
-            <div class="slider">
-                <h2>Certificates</h2>
-                <div class="certificates">
-                    <input type="radio" name="slide" id="cert1" checked>
-                    <input type="radio" name="slide" id="cert2">
-                    <input type="radio" name="slide" id="cert3">
-                    <input type="radio" name="slide" id="cert4">
-                    <input type="radio" name="slide" id="cert5">
-                    <input type="radio" name="slide" id="cert6">
-                    <input type="radio" name="slide" id="cert7">
-                    <input type="radio" name="slide" id="cert8">
-                    <input type="radio" name="slide" id="cert9">
-                    <input type="radio" name="slide" id="cert10">
-                    <input type="radio" name="slide" id="cert11">
-                    <input type="radio" name="slide" id="cert12">
-    
-                    <img src="cert/AgileFoundations.JPG" class="c1" alt="cert1">
-                    <img src="cert/python3.jpg" class="c2" alt="cert2">
-                    <img src="cert/machine_learning.jpg" class="c3" alt="cert3">
-                    <img src="cert/data_science.jpg" class="c4" alt="cert4">
-                    <img src="cert/sql.jpg" class="c5" alt="cert5">
-                    <img src="cert/cplus.jpg" class="c6" alt="cert6">
-                    <img src="cert/csharp.jpg" class="c7" alt="cert7">
-                    <img src="cert/java.jpg" class="c8" alt="cert8">
-                    <img src="cert/ruby.jpg" class="c9" alt="cert9">
-                    <img src="cert/html.jpg" class="c10" alt="cert10">
-                    <img src="cert/css.jpg" class="c11" alt="cert11">
-                    <img src="cert/javascript.jpg" class="c12" alt="cert12"> 
-                </div>
-                <div class="dots">
-                    <label for="cert1" id="btn1"></label>
-                    <label for="cert2" id="btn2"></label>
-                    <label for="cert3"></label>
-                    <label for="cert4"></label>
-                    <label for="cert5"></label>
-                    <label for="cert6"></label>
-                    <label for="cert7"></label>
-                    <label for="cert8"></label>
-                    <label for="cert9"></label>
-                    <label for="cert10"></label>
-                    <label for="cert11"></label>
-                    <label for="cert12"></label>
-                </div>
-                
-            </div>
-        </div>
+        <div class="content">
+
             
+                <div class="slider">
+                    <h2>Certificates</h2>
+                    <div class="certificates" class="w50">
+                        <input type="radio" name="slide" id="cert1" checked>
+                        <input type="radio" name="slide" id="cert2">
+                        <input type="radio" name="slide" id="cert3">
+                        <input type="radio" name="slide" id="cert4">
+                        <input type="radio" name="slide" id="cert5">
+                        <input type="radio" name="slide" id="cert6">
+                        <input type="radio" name="slide" id="cert7">
+                        <input type="radio" name="slide" id="cert8">
+                        <input type="radio" name="slide" id="cert9">
+                        <input type="radio" name="slide" id="cert10">
+                        <input type="radio" name="slide" id="cert11">
+                        <input type="radio" name="slide" id="cert12">
+        
+                        <img src="cert/angular_nestjs.jpg" class="c1" alt="cert1">
+                        <img src="cert/python3.jpg" class="c2" alt="cert2">
+                        <img src="cert/machine_learning.jpg" class="c3" alt="cert3">
+                        <img src="cert/data_science.jpg" class="c4" alt="cert4">
+                        <img src="cert/sql.jpg" class="c5" alt="cert5">
+                        <img src="cert/cplus.jpg" class="c6" alt="cert6">
+                        <img src="cert/csharp.jpg" class="c7" alt="cert7">
+                        <img src="cert/java.jpg" class="c8" alt="cert8">
+                        <img src="cert/ruby.jpg" class="c9" alt="cert9">
+                        <img src="cert/html.jpg" class="c10" alt="cert10">
+                        <img src="cert/css.jpg" class="c11" alt="cert11">
+                        <img src="cert/javascript.jpg" class="c12" alt="cert12"> 
+                    </div>
+                    <div class="dots">
+                        <label for="cert1" id="btn1"></label>
+                        <label for="cert2" id="btn2"></label>
+                        <label for="cert3"></label>
+                        <label for="cert4"></label>
+                        <label for="cert5"></label>
+                        <label for="cert6"></label>
+                        <label for="cert7"></label>
+                        <label for="cert8"></label>
+                        <label for="cert9"></label>
+                        <label for="cert10"></label>
+                        <label for="cert11"></label>
+                        <label for="cert12"></label>
+                    </div>
+                    
+                </div>
+    
+            
+
+           
+                <div class="slider">
+                    <h2>Certificates 2021</h2>
+                    <div class="certificates" >
+                        <input type="radio" name="slide" id="cert21" checked>
+                        <input type="radio" name="slide" id="cert22">
+                        <input type="radio" name="slide" id="cert23">
+                        <input type="radio" name="slide" id="cert24">
+                        <input type="radio" name="slide" id="cert25">
+                        <input type="radio" name="slide" id="cert26">
+                        <input type="radio" name="slide" id="cert27">
+                        <input type="radio" name="slide" id="cert28">
+                        <input type="radio" name="slide" id="cert29">
+                        <input type="radio" name="slide" id="cert30">
+                        <input type="radio" name="slide" id="cert31">
+                        <input type="radio" name="slide" id="cert32">
+        
+                        <img src="cert/AgileSoftwareDevelopment.JPG" class="c21" alt="cert21">
+                        <img src="cert/AgileSoftwareDevelopmentKanbanForDevelopers.JPG" class="c22" alt="cert22">
+                        <img src="cert/AgileSoftwareDevelopmentScrumforDevelopers.JPG" class="c23" alt="cert23">
+                        <img src="cert/AgileFoundations.JPG" class="c24" alt="cert24">
+                        <img src="cert/AgileTesting.JPG" class="c25" alt="cert25">
+                        <img src="cert/DevopsFoundations.JPG" class="c26" alt="cert26">
+                        <img src="cert/JiraBasics.JPG" class="c27" alt="cert27">
+                        <img src="cert/JiraSoftware.JPG" class="c28" alt="cert28">
+                        <img src="cert/ScrumBasics.JPG" class="c29" alt="cert29">
+                        <img src="cert/ScrumAdvanced.JPG" class="c30" alt="cert30">
+                        <img src="cert/ScrumMasterPrep.JPG" class="c31" alt="cert31">
+                        <img src="cert/GreatScrumMaster.JPG" class="c32" alt="cert32"> 
+                    </div>
+                    <div class="dots">
+                        <label for="cert21" ></label>
+                        <label for="cert22" ></label>
+                        <label for="cert23"></label>
+                        <label for="cert24"></label>
+                        <label for="cert25"></label>
+                        <label for="cert26"></label>
+                        <label for="cert27"></label>
+                        <label for="cert28"></label>
+                        <label for="cert29"></label>
+                        <label for="cert30"></label>
+                        <label for="cert31"></label>
+                        <label for="cert32"></label>
+                    </div>
+                    
+                </div>
+           
+        </div>
+        
             
         
-        <div class="w50">
+    </section>
+
+    <div class="projectBox">
             <div class="skills">
                 <article id="sidebar">
                     <body id="loadbar">
@@ -218,8 +270,6 @@
                   </article>
             </div>
         </div>
-        
-    </section>
 
     <footer>
         <a href="https://github.com/Mhlengi12" id="icon"> <p class="fab fa-github" ></p> </a>
