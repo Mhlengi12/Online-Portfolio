@@ -23,7 +23,6 @@ section
     background: rgb(0, 0, 0) ; /* url(banner.jpg);*/
     background-size: cover;
     background-position: right;
-    display:flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -128,12 +127,12 @@ header.sticky ul li a
 }
 .content
 {
-    display: flex;
+    
     justify-content: space-between;
 }
 .contentBox
 {
-    padding-right: 30px;
+    padding-right: 15px;
 }
 .contentBox h3
 {
@@ -142,8 +141,13 @@ header.sticky ul li a
 }
 .w50
 {
+  
     min-width: 50%;
+    max-width: 340px;
+    margin: 20px;
+    text-align: center;
 }
+
 img
 {
     max-width: 100%;
@@ -173,11 +177,11 @@ img
 }
 .projects .content .projectBox
 {
-    padding: 40px 20px;
+    padding: 35px 15px;
     background: #222;
     color:#fff;
-    max-width: 340px;
-    margin: 20px;
+    max-width: 400px;
+    margin: 15px;
     text-align: center;
     transition: 0.5s;
 }
@@ -193,7 +197,7 @@ img
 }
 .projects .content .projectBox h2
 {
-    font-size :20px;
+    font-size : 20px;
     font-weight: 600;
 }
 .slider
@@ -201,6 +205,12 @@ img
     position: relative;
     width: 50%;
     overflow: hidden;
+    margin:20px;
+
+}
+.content .slider
+{
+    min-width: 200px;
 }
 .certificates
 {
@@ -282,6 +292,56 @@ img
 {
     margin-left:-1100%;
 }
+/* Top left certificates/ Bottom right (2021) certificates */
+#cert21:checked ~ .c21 
+{
+    margin-left:0;
+}
+#cert22:checked ~ .c22
+{
+    margin-left:-100%;
+}
+#cert32:checked ~ .c23
+{
+    margin-left:-200%;
+}
+#cert24:checked ~ .c24
+{
+    margin-left:-300%;
+}
+#cert25:checked ~ .c25
+{
+    margin-left:-400%;
+}
+#cert26:checked ~ .c26
+{
+    margin-left:-500%;
+}
+#cert27:checked ~ .c27
+{
+    margin-left:-600%;
+}
+#cert28:checked ~ .c28
+{
+    margin-left:-700%;
+}
+#cert29:checked ~ .c29
+{
+    margin-left:-800%;
+}
+#cert30:checked ~ .c30
+{
+    margin-left:-900%;
+}
+#cert31:checked ~ .c31
+{
+    margin-left:-1000%;
+}
+#cert32:checked ~ .c32
+{
+    margin-left:-1100%;
+}
+
 footer
 {
     padding:20px;
@@ -467,8 +527,18 @@ footer
   filter: blur(30px);
 }
 
-@media(max-width: 991px)
+@media  (max-width: 480px) 
 {
+    .banner{
+        display:flex;
+    }
+}
+@media  (min-width: 580px) 
+{
+    .content{
+        display:flex;
+    }
+    
     header,
     header.sticky
     {
@@ -524,4 +594,8 @@ footer
         text-align:center;
         width:100%;
       }
+      .banner{
+          display:flex;
+      }
 }
+
